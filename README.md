@@ -2,6 +2,8 @@
 Basic gui application for the wll known yt-dlp package
 Huge thanks to the creators of the yt-dlp software, this programm is build on it.
 Also huge thanks to the creators of the PySimpleGUIQt Package, without them, this project would not be possible.
+Also huge thanks to the creators of the PyInstaller Package. It's the package, which i used to pack the project into a singele executable.
+
 Required python packages:
 yt-dlp
 
