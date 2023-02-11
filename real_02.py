@@ -61,6 +61,8 @@ def extract_audio_format(url, audio_format, audio_quality = "bestaudio/best"):
 
 
 while True:
+    psg.popup("The 'only audio' function won't work, if ffmpeg is not installed.", title="Infos", non_blocking=True, keep_on_top=True)
+
     global real_values
     global values
     if check_event("Cancel") or check_event(psg.WIN_CLOSED):
