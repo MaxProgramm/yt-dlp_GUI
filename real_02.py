@@ -70,8 +70,12 @@ while True:
         real_values = values
         #download_video_format(values[0], real_values[1])
         if real_values["Video_select"]:
+            psg.popup("--DOWNLOADING-- \n --Please wait!--", title="Downloading", non_blocking=True)
+            window.disappear()
             download_video_format(real_values["URL"], real_values["FILE_FORMAT"])
         if real_values["Audio_select"]:
+            psg.popup("--DOWNLOADING-- \n --Please wait!--", title="Downloading", non_blocking=True)
+            window.disappear()
             extract_audio_format(real_values["URL"], real_values["FILE_FORMAT"])
         break
 
