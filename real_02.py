@@ -21,6 +21,7 @@ layout = [
         [psg.Text("*for audio mp3")],
         [psg.Text("*for Video mp4")],
 #       [sg.Text('Phone', size=(15, 1)), sg.InputText()],
+        [psg.Text("--press submit 3 times!--")],
         [psg.Submit(), psg.Cancel()]
 ]
 
@@ -61,7 +62,7 @@ def extract_audio_format(url, audio_format, audio_quality = "bestaudio/best"):
 
 
 while True:
-    psg.popup("The 'only audio' function won't work, if ffmpeg is not installed.", title="Infos", non_blocking=True, keep_on_top=True)
+    psg.popup("The 'only audio' function won't work, if ffmpeg is not installed. Downloading Videos should work", title="Infos", non_blocking=True, keep_on_top=True)
 
     global real_values
     global values
