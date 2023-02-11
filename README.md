@@ -18,6 +18,6 @@ License
 
 GNU Lesser General Public License (LGPL 3) +
 
-Copytight 2018, 2019, 2020 PySimpleGUI
+Copyright 2018, 2019, 2020 PySimpleGUI
 
 
